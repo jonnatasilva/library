@@ -1,0 +1,62 @@
+
+body {
+    padding-top: 70px;
+	background-color:#D9D092;
+	color:black;
+}
+
+/*Fundo navbar*/
+.navbar {
+	background-color:#2F353E;
+}
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+/*Navbar-botoes quando está com o mouse em cima*/
+.navbar-inverse .navbar-nav>li>a:hover { 
+    color: #FF710D;
+}
+
+/*Letras navbar*/
+.navbar-inverse .navbar-nav>li>a { 
+    color: white;
+	font-size:15px;
+}
+
+/*Menu > menubar responsiva*/
+.navbar-inverse .navbar-toggle{
+	border:none
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+/*Footer*/
+footer{
+	background-color:#2F353E;
+	color:white;
+	padding:15px;
+}
+
+/*Div login*/
+#login{
+	color:white;
+	padding:20px;
+}
+
+#divcadastro{
+	padding: 20px;
+	
+}

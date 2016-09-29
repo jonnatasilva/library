@@ -24,6 +24,6 @@ public class ServletConfig extends WebMvcConfigurerAdapter {
     
     @Override
     public void addResourceHandlers(final ResourceHandlerRegistry registry) {
-    	registry.addResourceHandler("/templates/**").addResourceLocations("WEB-INF/templates/");
+    	registry.addResourceHandler("/templates/**").addResourceLocations("WEB-INF/");
     }
 }
